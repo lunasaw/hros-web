@@ -73,7 +73,7 @@ export default {
       rules: {
         username: [
           { required: true, message: '请输入用户名', trigger: 'blur' },
-          { min: 5, max: 25, message: '长度在 5 到 25 个字符', trigger: 'blur' }
+          { min: 1, max: 25, message: '长度在 1 到 25 个字符', trigger: 'blur' }
         ],
         password: [
           { required: true, message: '请输入密码', trigger: blur() },
@@ -153,7 +153,7 @@ export default {
     width: 100%;
     height: 100%;
     position: fixed;
-   background-image: url(../assets/images/timg.jpg); 
+   background-image: url(../assets/images/timg.jpg);
 }
 .logContainer {
   /* //圆角边框*/

@@ -2,21 +2,6 @@
   <div>
     <!--弹性盒子元素在主轴（横轴）方向上的对齐方式。-->
     <div style="display: flex;justify-content: center;margin-top: 10px">
-      <el-input class="addPosInput"
-                placeholder="请输入用户名进行搜索..."
-                prefix-icon="el-icon-search"
-                v-model="name"
-                @keyup.enter.native="searchname">
-      </el-input>
-      <el-button icon="el-icon-search"
-                 type="primary"
-                 @click="searchname">搜索
-      </el-button>
-      <el-button type="primary"
-                 icon="el-icon-plus"
-                 @click="showAddHrView">
-        添加用户
-      </el-button>
     </div>
 
     <div class="center-right-infinite-lists"
@@ -116,9 +101,6 @@
         <div><el-input prefix-icon="el-icon-edit"
                        v-model="addHr.address"
                        placeholder="地 址"></el-input></div>
-        <div><el-input prefix-icon="el-icon-edit"
-                       v-model="addHr.userface"
-                       placeholder="头像地址"></el-input></div>
         <div>用户状态：
           <el-switch v-model="addHr.enabled"
                      active-color="#13ce66"
@@ -334,7 +316,7 @@ export default {
         });
       }, 900)
       this.loading = true;
-      this.getRequest("/system/hr/?name=" + this.name).then(resp => {
+      this.getRequest("/system/hr/base").then(resp => {
         if (resp) {
           this.hrs = resp;
           this.loading = false;
