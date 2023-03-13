@@ -1,0 +1,206 @@
+2023-02-13 17:27:28,757 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-02-13 17:27:28,831 INFO o.a.j.JMeter: Loading user properties from: /Users/weidian/compose/apache-jmeter/bin/user.properties
+2023-02-13 17:27:28,831 INFO o.a.j.JMeter: Loading system properties from: /Users/weidian/compose/apache-jmeter/bin/system.properties
+2023-02-13 17:27:28,837 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-02-13 17:27:28,837 INFO o.a.j.JMeter: Version 5.5
+2023-02-13 17:27:28,838 INFO o.a.j.JMeter: java.version=1.8.0_332
+2023-02-13 17:27:28,838 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2023-02-13 17:27:28,838 INFO o.a.j.JMeter: os.name=Mac OS X
+2023-02-13 17:27:28,838 INFO o.a.j.JMeter: os.arch=aarch64
+2023-02-13 17:27:28,838 INFO o.a.j.JMeter: os.version=13.0
+2023-02-13 17:27:28,838 INFO o.a.j.JMeter: file.encoding=UTF-8
+2023-02-13 17:27:28,838 INFO o.a.j.JMeter: java.awt.headless=null
+2023-02-13 17:27:28,838 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-02-13 17:27:28,838 INFO o.a.j.JMeter: Available Processors =8
+2023-02-13 17:27:28,841 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-02-13 17:27:28,841 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-02-13 17:27:28,841 INFO o.a.j.JMeter: JMeterHome=/Users/weidian/compose/apache-jmeter
+2023-02-13 17:27:28,841 INFO o.a.j.JMeter: user.dir  =/Users/weidian/my-project/HROS-UI
+2023-02-13 17:27:28,841 INFO o.a.j.JMeter: PWD       =/Users/weidian/my-project/HROS-UI
+2023-02-13 17:27:28,842 INFO o.a.j.JMeter: IP: 172.19.128.59 Name: luna.local FullName: 172.19.128.59
+2023-02-13 17:27:28,851 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-02-13 17:27:29,195 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.SolarizedLightTheme
+2023-02-13 17:27:32,899 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-1901fd097f58bf84731508e86a50fa88-gui
+2023-02-13 17:27:36,453 INFO o.a.j.s.FileServer: Default base='/Users/weidian/my-project/HROS-UI'
+2023-02-13 17:27:38,000 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-plugins-manager=1.8, jmeter-core=5.5, jmeter-ftp=5.5, jmeter-http=5.5, jmeter-jdbc=5.5, jmeter-jms=5.5, jmeter-junit=5.5, jmeter-java=5.5, jmeter-ldap=5.5, jmeter-mail=5.5, jmeter-mongodb=5.5, jmeter-native=5.5, jmeter-tcp=5.5, jmeter-components=5.5]
+2023-02-13 17:28:15,980 INFO o.a.j.s.FileServer: Set new base='/Users/weidian/weidian/推广员/压测接口'
+2023-02-13 17:28:16,061 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-02-13 17:28:16,067 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-02-13 17:28:16,067 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-02-13 17:28:16,069 INFO o.a.j.s.SaveService: Loading file: /Users/weidian/weidian/推广员/压测接口/queryBonus.jmx
+2023-02-13 17:28:16,144 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-13 17:28:16,144 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-13 17:28:16,144 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-13 17:28:16,144 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-13 17:28:16,144 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-02-13 17:28:16,144 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-02-13 17:28:16,255 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-02-13 17:28:16,255 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-02-13 17:28:16,255 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-02-13 17:28:16,255 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-02-13 17:28:16,347 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-02-13 17:28:16,441 INFO o.a.j.s.FileServer: Set new base='/Users/weidian/weidian/推广员/压测接口'
+2023-02-13 17:30:00,010 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-02-13 17:30:00,012 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-02-13 17:30:00,012 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-02-13 17:30:00,013 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-02-13 17:30:00,013 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-02-13 17:30:00,596 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-02-13 17:30:00,596 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group 线程组.
+2023-02-13 17:30:00,596 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-02-13 17:30:00,596 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
+2023-02-13 17:30:00,601 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-02-13 17:30:00,601 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-02-13 17:30:00,604 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-02-13 17:30:00,605 INFO o.a.j.s.FileServer: Stored: /Users/miaomengkai/Desktop/queryBonus/25w_buyer_info_target.csv
+2023-02-13 17:30:00,605 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /Users/miaomengkai/Desktop/queryBonus/25w_buyer_info_target.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:99) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:266) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_332]
+Caused by: java.lang.IllegalArgumentException: File 25w_buyer_info_target.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.5]
+	... 9 more
+2023-02-13 17:30:00,609 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-02-13 17:30:01,102 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-2
+2023-02-13 17:30:01,102 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /Users/miaomengkai/Desktop/queryBonus/25w_buyer_info_target.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:99) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:266) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_332]
+Caused by: java.lang.IllegalArgumentException: File 25w_buyer_info_target.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.5]
+	... 9 more
+2023-02-13 17:30:01,102 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-2
+2023-02-13 17:30:01,103 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-02-13 17:30:03,809 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-02-13 17:30:03,810 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-02-13 17:30:03,893 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-02-13 17:30:03,893 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group 线程组.
+2023-02-13 17:30:03,893 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-02-13 17:30:03,893 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
+2023-02-13 17:30:03,893 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-02-13 17:30:03,893 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-02-13 17:30:03,894 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-02-13 17:30:03,894 INFO o.a.j.s.FileServer: Stored: /Users/miaomengkai/Desktop/queryBonus/25w_buyer_info_target.csv
+2023-02-13 17:30:03,894 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /Users/miaomengkai/Desktop/queryBonus/25w_buyer_info_target.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:99) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:266) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_332]
+Caused by: java.lang.IllegalArgumentException: File 25w_buyer_info_target.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.5]
+	... 9 more
+2023-02-13 17:30:03,894 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-02-13 17:30:04,399 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-2
+2023-02-13 17:30:04,400 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /Users/miaomengkai/Desktop/queryBonus/25w_buyer_info_target.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:99) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:266) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_332]
+Caused by: java.lang.IllegalArgumentException: File 25w_buyer_info_target.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.5]
+	... 9 more
+2023-02-13 17:30:04,401 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-2
+2023-02-13 17:30:04,402 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-02-13 17:30:14,578 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-02-13 17:30:14,579 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-02-13 17:30:14,670 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2023-02-13 17:30:14,671 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group 线程组.
+2023-02-13 17:30:14,671 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-02-13 17:30:14,671 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
+2023-02-13 17:30:14,671 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-02-13 17:30:14,671 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-02-13 17:30:14,672 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2023-02-13 17:30:14,672 INFO o.a.j.s.FileServer: Stored: /Users/miaomengkai/Desktop/queryBonus/25w_buyer_info_target.csv
+2023-02-13 17:30:14,672 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /Users/miaomengkai/Desktop/queryBonus/25w_buyer_info_target.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:99) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:266) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_332]
+Caused by: java.lang.IllegalArgumentException: File 25w_buyer_info_target.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.5]
+	... 9 more
+2023-02-13 17:30:14,672 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2023-02-13 17:30:15,177 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-2
+2023-02-13 17:30:15,177 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file /Users/miaomengkai/Desktop/queryBonus/25w_buyer_info_target.csv
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:99) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:266) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_332]
+Caused by: java.lang.IllegalArgumentException: File 25w_buyer_info_target.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.5]
+	... 9 more
+2023-02-13 17:30:15,177 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-2
+2023-02-13 17:30:15,177 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-02-13 17:32:23,588 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2023-02-13 17:32:29,999 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.config.CSVDataSet
+2023-02-13 17:32:52,952 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.config.CSVDataSet
+2023-02-13 17:32:56,859 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.config.CSVDataSet
+2023-02-13 19:00:48,705 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.config.CSVDataSet
+2023-02-13 19:00:48,787 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.config.CSVDataSet
+2023-02-13 19:00:48,904 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.config.CSVDataSet
+2023-02-14 09:52:39,284 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.config.CSVDataSet
+2023-02-14 09:52:39,358 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.config.CSVDataSet
+2023-02-14 10:24:19,891 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.config.CSVDataSet
+2023-02-14 10:24:22,965 WARN o.a.j.g.t.JMeterTreeNode: getIcon(): Can't obtain GUI class from class org.apache.jmeter.config.CSVDataSet
