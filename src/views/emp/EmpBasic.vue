@@ -418,16 +418,16 @@
                     </el-radio-group>
                   </el-form-item>
                 </el-col>
-                <el-col :span="8">
-                  <el-form-item label="婚姻状况:"
-                                prop="wedlock">
-                    <el-radio-group v-model="emp.wedlock">
-                      <el-radio label="已婚">已婚</el-radio>
-                      <el-radio label="未婚">未婚</el-radio>
-                      <el-radio label="离异">离异</el-radio>
-                    </el-radio-group>
-                  </el-form-item>
-                </el-col>
+<!--                <el-col :span="8">-->
+<!--                  <el-form-item label="婚姻状况:"-->
+<!--                                prop="wedlock">-->
+<!--                    <el-radio-group v-model="emp.wedlock">-->
+<!--                      <el-radio label="已婚">已婚</el-radio>-->
+<!--                      <el-radio label="未婚">未婚</el-radio>-->
+<!--                      <el-radio label="离异">离异</el-radio>-->
+<!--                    </el-radio-group>-->
+<!--                  </el-form-item>-->
+<!--                </el-col>-->
               </el-row>
             </el-form>
           </div>
@@ -828,7 +828,7 @@ export default {
         gender: "男",
         birthday: "1998-10-08",
         idcard: "",
-        wedlock: "",
+        wedlock: "未婚",
         nationid: 1,
         nativeplace: "",
         politicid: 3,
