@@ -169,7 +169,14 @@ export default {
       this.postRequest("/system/hr/modifyPass", this.repss).then(resp => {
         if (resp) {
           this.dialogVisible = false;
-          this.inithrs();
+          this.$notify.success({
+            title: '修改密码',
+            message: '修改成功',
+            showClose: false,
+            offset: 100,
+            duration: 1500,
+            customClass: 'fontclass'
+          });
         } else {
           this.$notify.error({
             title: '修改密码',
