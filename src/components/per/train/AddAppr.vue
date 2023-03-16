@@ -16,7 +16,7 @@
                    :disabled="showAdvanceSearchView">
           搜索
         </el-button>
-      </div> 
+      </div>
     </div> -->
 
     <div class="content-style">
@@ -143,7 +143,7 @@
 
     </div>
     <!--添加弹出框-->
-    
+
     <el-dialog title="添加考评"
                :visible.sync="dialogVisibles"
                width="25%"
@@ -254,7 +254,7 @@ export default {
   methods: {
     doAddrp () {
       this.dialogVisibles = false;
-      
+
       this.doAddEmc();
 
 
