@@ -37,6 +37,11 @@ export default {
     this.init();
   },
   methods: {
+    isDateGreaterThanToday(date) {
+      const today = new Date();
+      const select = new Date(date.day);
+      return select.getTime() > today.getTime();
+    },
     handleDateChange(date) {
       this.$notify.success({
         title: '签到',
@@ -57,6 +62,17 @@ export default {
     },
 
     open(data) {
+      if (this.isDateGreaterThanToday(data)){
+        this.$notify.error({
+          title: '签到',
+          message: '对不起! 现在不是签到时间',
+          showClose: false,
+          offset: 100,
+          duration: 1500,
+          customClass: 'fontclass'
+        });
+        return;
+      }
       this.$confirm('是否确定签到?', '提示', {
         confirmButtonText: '确定',
         cancelButtonText: '取消',

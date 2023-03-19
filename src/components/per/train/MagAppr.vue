@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="top-style">
-      <div style="display: flex;justify-content: flex-start;">
+      <div style="display: flex;justify-content: flex-start;" v-show="!keywordFrom" >
         <el-input placeholder="请输入员工名进行搜索，可以直接回车搜索..."
                   prefix-icon="el-icon-search"
                   clearable
@@ -82,7 +82,7 @@
             </el-table-column>
             <el-table-column align="left"
                              width="150"
-                             label="操作">
+                             label="操作" v-if="!keywordFrom">
               <template slot-scope="scope">
                 <el-button @click="showEditEmpView(scope.row)"
                            style="padding: 3px">编辑
@@ -164,7 +164,13 @@
 <script>
 export default {
   name: "Magtrain",
-
+  props: {
+    //父组件传来的值需定义一下
+    keywordFrom: {
+      type: Boolean, //类型
+      default: false
+    },
+  },
   data () {
 
     return {
@@ -304,6 +310,10 @@ export default {
 
     /*初始化搜索处理*/
     initEmps () {
+      if (this.keywordFrom){
+        let user = JSON.parse(window.sessionStorage.getItem("user"));
+        this.keyword = user.name;
+      }
       this.loading = true;
       let url = '/personnel/train/initapp?page=' + this.page + '&size=' + this.size;
       if (this.keyword) {
