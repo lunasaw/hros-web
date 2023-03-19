@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="top-style">
-      <div style="display: flex;justify-content: flex-start;">
+      <div style="display: flex;justify-content: flex-start;" v-show="!this.keywordFrom">
         <el-input placeholder="请输入员工名进行搜索，可以直接回车搜索..."
                   prefix-icon="el-icon-search"
                   clearable
@@ -32,7 +32,7 @@
                     :customClass="loadingstyle"
                     style="width: 100%;height: 645px"
                     @selection-change="handleSelectionChange">
-          
+
             <el-table-column prop="name"
                              align="left"
                              label="姓名"
@@ -73,7 +73,7 @@
               </template>
             </el-table-column>
             <el-table-column prop="employeeecList"
-                             label="奖惩">
+                             label="奖惩" v-show="!this.keywordFrom">
               <template slot-scope="scope">
                 <el-tag closable
                         v-for=" (item,index) in scope.row.employeeecList"
@@ -111,7 +111,13 @@
 <script>
 export default {
   name: "Magjc",
-
+  props: {
+    //父组件传来的值需定义一下
+    keywordFrom: {
+      type: Boolean, //类型
+      default: false
+    },
+  },
   data () {
 
     return {
@@ -175,7 +181,7 @@ export default {
 // alert(JSON.stringify(data));
       this.eid = data.eid;
       this.id = data.id;
-     
+
       this.$confirm('此操作将永久删除【' + data.rwardsPunishments.rpmsg + '】, 是否继续?', '提示', {
         confirmButtonText: '确定',
         cancelButtonText: '取消',
@@ -244,6 +250,10 @@ export default {
     },
     /*初始化搜索处理*/
     initEmps (type) {
+      if (this.keywordFrom){
+        let user = JSON.parse(window.sessionStorage.getItem("user"));
+        this.keyword = user.name;
+      }
       this.loading = true;
       let url = '/personnel/ec/ec?page=' + this.page + '&size=' + this.size;
       if (type && type == 'advanced') {
