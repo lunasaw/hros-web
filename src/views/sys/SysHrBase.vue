@@ -50,28 +50,28 @@
                           style="margin-right: 5px">
                     {{ role.namezh }}
                   </el-tag>
-<!--                  <el-popover @show="showrol(hr)"-->
-<!--                              @after-leave="hiderol(hr)"-->
-<!--                              title="角色列表"-->
-<!--                              width="200"-->
-<!--                              trigger="click">-->
-<!--                    <template>-->
-<!--                      <el-select v-model="selectroles"-->
-<!--                                 multiple-->
-<!--                                 :popper-append-to-body="false"-->
-<!--                                 placeholder="请选择">-->
-<!--                        <el-option v-for="(item, index) in roles"-->
-<!--                                   :key="index"-->
-<!--                                   :label="item.namezh"-->
+                  <el-popover @show="showrol(hr)"
+                              @after-leave="hiderol(hr)"
+                              title="角色列表"
+                              width="200"
+                              trigger="click">
+                    <template>
+                      <el-select v-model="selectroles"
+                                 multiple disabled
+                                 :popper-append-to-body="false"
+                                 placeholder="请选择">
+                        <el-option v-for="(item, index) in roles"
+                                   :key="index"
+                                   :label="item.namezh"
 
-<!--                                   :value="item.id">-->
-<!--                        </el-option>-->
-<!--                      </el-select>-->
-<!--                    </template>-->
-<!--                    <el-button icon="el-icon-edit"-->
-<!--                               type="text"-->
-<!--                               slot="reference"></el-button>-->
-<!--                  </el-popover>-->
+                                   :value="item.id">
+                        </el-option>
+                      </el-select>
+                    </template>
+                    <el-button icon="el-icon-edit"
+                               type="text"
+                               slot="reference"></el-button>
+                  </el-popover>
                 </div>
                 <div>备注：{{ hr.remark }}</div>
               </div>
