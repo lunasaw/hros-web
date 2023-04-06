@@ -232,7 +232,9 @@ export default {
       this.emp.departmentid = data.id;
       this.popVisible = !this.popVisible
     },
-
+    handleSelectionChange (val) {
+      this.multipleSelection = val;
+    },
     /*分页事件处理*/
     sizeChange (currentSize) {
       this.size = currentSize;
