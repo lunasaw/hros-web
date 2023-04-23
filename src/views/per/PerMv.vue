@@ -117,10 +117,14 @@
                                    label="调动部门"
                                    width="180">
                   </el-table-column>
-                  <el-table-column prop ="jobLevel.name"
-                                   label="调动职称"
+                  <el-table-column prop ="position.name"
+                                   label="调动职位"
                                    width="180">
                   </el-table-column>
+                    <el-table-column prop ="jobLevel.name"
+                                     label="调动职称"
+                                     width="180">
+                    </el-table-column>
                   <el-table-column prop="reason"
                                    label="调动原因">
                   </el-table-column>
