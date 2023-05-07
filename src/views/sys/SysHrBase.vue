@@ -57,7 +57,7 @@
                               trigger="click">
                     <template>
                       <el-select v-model="selectroles"
-                                 multiple
+                                 multiple disabled
                                  :popper-append-to-body="false"
                                  placeholder="请选择">
                         <el-option v-for="(item, index) in roles"
@@ -284,27 +284,27 @@ export default {
         }
       });
     },
-    hiderol(hr) {
-      let url = "/system/hr/role?" + "hrid=" + hr.id;
-      this.selectroles.forEach(id => {
-        url += "&rids=" + id;
-      })
-      url += "&rids";
-      this.selectroles = null;
-      this.$notify.success({
-        title: '修改讯息',
-        message: '用 户 信 息 修 改 中...',
-        showClose: false,
-        offset: 200,
-        duration: 1500,
-        customClass: 'fontclasssysuser'
-      });
-      this.putRequest(url).then(resp => {
-        if (resp) {
-          this.inithrs();
-        }
-      });
-    },
+    // hiderol(hr) {
+    //   let url = "/system/hr/role?" + "hrid=" + hr.id;
+    //   this.selectroles.forEach(id => {
+    //     url += "&rids=" + id;
+    //   })
+    //   url += "&rids";
+    //   this.selectroles = null;
+    //   this.$notify.success({
+    //     title: '修改讯息',
+    //     message: '用 户 信 息 修 改 中...',
+    //     showClose: false,
+    //     offset: 200,
+    //     duration: 1500,
+    //     customClass: 'fontclasssysuser'
+    //   });
+    //   this.putRequest(url).then(resp => {
+    //     if (resp) {
+    //       this.inithrs();
+    //     }
+    //   });
+    // },
     showrol(hr) {
       //  this.initroles();
       let roles = hr.roles;
